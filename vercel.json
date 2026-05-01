@@ -11,7 +11,7 @@
     }
   ],
   "functions": {
-    "api/**/*.py": {
+    "api/index.py": {
       "maxDuration": 10,
       "excludeFiles": "{__pycache__/**,**/*.pyc,*.log}"
     }
