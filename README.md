@@ -14,7 +14,7 @@ No external Python packages are required. The app uses only the Python standard 
 
 ## Deploy on Vercel
 
-This project is ready for Vercel's Python serverless runtime.
+This project is ready for Vercel's Python backend runtime.
 
 ### Option 1: Deploy from GitHub
 
@@ -40,8 +40,9 @@ vercel --prod
 ## Vercel files
 
 - `api/index.py` is the Python serverless function.
+- `app.py` is the Vercel Flask entrypoint.
 - `vercel_app.py` renders the app and handles form actions.
-- `vercel.json` rewrites `/` and `/action` to the Python function.
+- `vercel.json` is intentionally minimal so Vercel auto-detects `app.py`.
 - `public/styles.css` is the deployed stylesheet.
 - `.python-version` pins Python `3.12`.
 
