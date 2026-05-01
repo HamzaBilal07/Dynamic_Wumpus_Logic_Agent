@@ -7,7 +7,7 @@ A web-based Knowledge-Based Agent for a dynamic Wumpus World grid. The agent rec
 You can try the deployed project here:
 
 ```text
-PASTE_YOUR_VERCEL_LINK_HERE
+dynamic-wumpus-logic-agent-theta.vercel.app
 ```
 
 Replace the placeholder above with the Vercel deployment link.
